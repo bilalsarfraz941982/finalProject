@@ -17,3 +17,25 @@
   margin-top: 11px;
   gap:20px;
 }
+
+.footer{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  justify-content: center;
+  gap:100px;
+}
+
+.imageh5{
+  margin-top: 10px;
+}
+
+.contact h3{
+  color:rgb(38, 60, 52) ;
+
+}
+.contact h5{
+  margin-top: 30px;
+  color:rgb(38, 60, 52) ;
+  font-weight: 500;
+}
