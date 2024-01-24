@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.mainbox{
+    align-content: center;
+}
+
+.fields{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
