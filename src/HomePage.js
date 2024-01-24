@@ -4,11 +4,16 @@ import Reservation from './Reservation';
 import Menu from './Menu'
 import picture from './Assets/headerbg.jpg';
 import resturant from './Assets/restauranfood.jpg';
-import salad from './Assets/greek salad.jpg'
-import basket from './Assets/Basket.svg'
-import brunch from './Assets/bruchetta.jpg'
-import dessert from  './Assets/lemon dessert.jpg'
-import {Route , Routes,Link} from 'react-router-dom'
+import salad from './Assets/greek salad.jpg';
+import basket from './Assets/Basket.svg';
+import brunch from './Assets/bruchetta.jpg';
+import dessert from  './Assets/lemon dessert.jpg';
+import customer2 from './Assets/customer2.jpeg';
+import customer3 from './Assets/customer3.jpeg';
+import customer4 from './Assets/customer4.jpeg';
+import star5 from  './Assets/5star.jpg'
+import star4 from  './Assets/4star.jpg'
+import {Route , Routes,Link} from 'react-router-dom';
 
 function HomePage() {
   return (
@@ -78,6 +83,41 @@ function HomePage() {
             </div>
         </div>
     </div>
+    <div className='commentBox'>
+       <h4></h4><br></br>
+       <h1>What our customer say about us !!</h1>
+       <div className='commentBoxsection'>
+          <div className='comment1'>
+             <h4>Rating</h4>
+             <div className='customer1'>
+               <img style={{borderRadius:"100px"}} src={customer4}></img>
+               <h4>Andy</h4>
+             </div>
+             <p>"Excellent food, service well priced <br></br> and offer discount for NHS staff.<br></br> Very busy for Saturday lunch time."</p>
+             <img src={star5} alt='reviewstar' height={"20px"} width={"100px"}></img>
+          </div>
+          <div className='comment2'>
+             <h4>Rating</h4>
+             <div className='customer2'>
+               <img style={{borderRadius:"100px"}} src={customer2}></img>
+               <h4>Sharan</h4>
+             </div>
+             <p>"I ordered chicken Szechuan with <br></br>fries and brownie and custard. It was <br></br>delicious and our waiter Haris <br></br>was really helpful and nice and gave<br></br> us the best service we have had so <br></br>far coming to MyLahore. Thanks Haris."</p>
+             <img src={star5} alt='reviewstar' height={"20px"} width={"100px"}></img>
+          </div>
+          <div className='comment3'>
+             <h4>Rating</h4>
+             <div className='customer3'>
+               <img style={{borderRadius:"100px"}} src={customer3}></img>
+               <h4>Bilal</h4>
+             </div>
+             <p>"Nice place to eat, has a <br></br>good variety on the menu too, <br></br>Nice decor."</p>
+             <img src={star4} alt='reviewstar' height={"20px"} width={"100px"}></img>
+          </div>
+       </div>
+       <h2></h2><br></br><br></br><br></br>
+    </div>
+    
     </>
   )
 }
