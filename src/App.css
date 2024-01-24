@@ -23,7 +23,7 @@
   flex-wrap: wrap;
   margin-top: 50px;
   justify-content: center;
-  gap:100px;
+  gap:90px;
 }
 
 .imageh5{
@@ -35,6 +35,10 @@
     color:rgb(38, 60, 52) ;
     font-weight: 500;
 }
+.quicklinks h3{
+  color:rgb(38, 60, 52) ;
+}
+
 .contact h3{
   color:rgb(38, 60, 52) ;
 
@@ -43,4 +47,11 @@
   margin-top: 20px;
   color:rgb(38, 60, 52) ;
   font-weight: 500;
+}
+
+.socialmedia{
+ display: flex;
+ flex-wrap: wrap;
+ margin-top: 20px;
+ gap: 10px;
 }

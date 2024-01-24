@@ -49,10 +49,10 @@ function App() {
            <img src={twitter} height={30} width={30} alt=''/>
          </div>
         </div>
-        <div className='quicklinks'>
+        <div className='quicklisnks'>
           <h3>Quick Links</h3><br></br>
           <Link style={{color:"rgb(73,94,87)"}} to="/" className='homepage'>Home Page</Link><br></br>
-          <Link style={{color:"rgb(73,94,87)", marginTop:"10px"}} to="/about" className='about'>About</Link><br></br>
+          <Link style={{color:"rgb(73,94,87)"}} to="/about" className='about'>About</Link><br></br>
           <Link style={{color:"rgb(73,94,87)"}} to="/menu" className='menu'>Menu</Link><br></br>
           <Link style={{color:"rgb(73,94,87)"}} to="/reservation" className='reservation'>Reservation</Link><br></br>
           <Link style={{color:"rgb(73,94,87)"}} to="/orderonline" className='orderonline'>Order Online</Link><br></br>
