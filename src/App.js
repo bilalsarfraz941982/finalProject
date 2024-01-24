@@ -18,9 +18,9 @@ function App() {
   return (
     <>
       <div className='navbar'>
-        <img src={logo} alt='main logo picture' height={"50px"} width={"150px"}/>
+        <img src={logo} alt='main logo picture' height={"50px"} width={"190px"}/>
          <div className='navbarele'>
-          <Link style={{color:"rgb(73,94,87)"}} to="/" className='homepage'>HomePage</Link>
+          <Link style={{color:"rgb(73,94,87)"}} to="/" className='homepage'>Home</Link>
           <Link style={{color:"rgb(73,94,87)"}} to="/about" className='about'>About</Link>
           <Link style={{color:"rgb(73,94,87)"}} to="/menu" className='menu'>Menu</Link>
           <Link style={{color:"rgb(73,94,87)"}} to="/reservation" className='reservation'>Reservation</Link>
