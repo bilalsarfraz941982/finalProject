@@ -23,7 +23,7 @@ function HomePage() {
         <div className='leftbox'>
           <h2>Little Lemon</h2>
           <h4>Chicago</h4><br></br>
-          <p>Little Lemon is a Mediterranean-inspired<br></br> cocktail and wine bar that takes <br></br>pride in offering a tantalizing menu centered<br></br> around fresh seafood, succulent meats, <br></br>flavorful charcuterie, and locally sourced <br></br>ingredients. </p><br></br>
+          <p>Welcome to Little Lemon,<br></br> where we offer delicious and fresh cuisine<br></br> inspired by the flavors of the Mediterranean.<br></br> Our menu features a range of tasty <br></br>options that are perfect for any occasion,<br></br> all served in a warm and inviting atmosphere. </p><br></br>
           <Link to="/reservation" className='reservation'><button>Reserve a Table</button></Link>
         </div>
         <Routes>
