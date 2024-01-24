@@ -37,7 +37,7 @@ function App() {
         <Route path='/login' element={<Login/>}></Route>
       </Routes>
       <div className='footer'>
-        <div className='firstbox'>
+        <div className='box1'>
          <div className='imageh5'>
            <img src={logo1} height={"150px"} width={"90px"}/>
            <h5>Follow us on</h5>
