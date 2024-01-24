@@ -1,6 +1,7 @@
 import React from 'react';
 import './HomePage.css'
 import Reservation from './Reservation';
+import Menu from './Menu'
 import picture from './Assets/headerbg.jpg';
 import resturant from './Assets/restauranfood.jpg';
 import {Route , Routes,Link} from 'react-router-dom'
@@ -21,6 +22,17 @@ function HomePage() {
         <div className='rightbox'>
            <img src={resturant} alt='resturant ' height={"400px"} width={"320px"}/>
         </div>
+    </div>
+    <div className='main'>
+      <div className='wspecial'>
+        <h1>This week special!</h1>
+      </div>
+      <div>
+         <Link to="/menu" className='menu'><button>Online Menu</button></Link>
+      </div>
+      <Routes>
+        <Route path='/menu' element={<Menu/>}></Route>
+      </Routes>
     </div>
     </>
   )
