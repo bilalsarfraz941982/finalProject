@@ -119,7 +119,7 @@ function HomePage() {
        <h2></h2><br></br><br></br><br></br>
     </div>
     <div className='box'>
-      <div className='about'>
+      <div className='information'>
         <h1>Little Lemon</h1>
         <h3>Chicago</h3><br></br>
         <p>Little Lemon is a Mediterranean-inspired <br></br>cocktail and wine bar that takes <br></br>pride in offering a tantalizing <br></br>menu centered around fresh seafood, <br></br>succulent meats, flavorful charcuterie, <br></br>and locally sourced ingredients.</p>

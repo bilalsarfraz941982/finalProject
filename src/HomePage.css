@@ -154,17 +154,17 @@
     justify-content: center;
 }
 
-.about{
+.information{
     margin-top:80px;
 }
 
-.about h1{
+.information h1{
     color:rgb(244, 206, 20)
 }
-.about h3{
+.information h3{
     color:rgb(229, 227, 218)
 }
-.about p{
+.information p{
     color:rgb(229, 227, 218)
 }
 .cheffimage{
