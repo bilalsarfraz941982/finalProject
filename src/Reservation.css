@@ -3,13 +3,19 @@
     padding: 0;
 }
 
-.mainbox{
-    align-content: center;
+.mainBox{
+    text-align: center;
     background-color:rgb(73,94,87)  ;
+}
+
+.mainBox h1{
+    margin-right: 255px;
+    color: white;
 }
 
 .fields{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    margin-left: 600px;
 }
+
