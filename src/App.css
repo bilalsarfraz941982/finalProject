@@ -30,12 +30,17 @@
   margin-top: 10px;
 }
 
+.imageh5 h5{
+    margin-top: 20px;
+    color:rgb(38, 60, 52) ;
+    font-weight: 500;
+}
 .contact h3{
   color:rgb(38, 60, 52) ;
 
 }
 .contact h5{
-  margin-top: 30px;
+  margin-top: 20px;
   color:rgb(38, 60, 52) ;
   font-weight: 500;
 }
