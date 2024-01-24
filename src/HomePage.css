@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:150px
+}
+
+.leftbox h2{
+    color: rgb(244,206,20);
+    margin-top: 30px;
+}
+
+.leftbox h4{
+    color: rgb(229, 227, 218);
+}
+
+.leftbox p{
+    color: rgb(229,227,218);
+}
