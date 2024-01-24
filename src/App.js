@@ -1,4 +1,5 @@
 import React from 'react';
+import logo from './Assets/littlelemonlogo.png';
 import './App.css';
 import {Route , Routes , Link} from 'react-router-dom';
 import Homepage from './HomePage';
@@ -12,6 +13,7 @@ function App() {
   return (
     <>
       <div className='navbar'>
+        <img src={logo} alt='main logo picture' height={"50px"} width={"150px"}/>
         <Link to="/" className='homepage'>HomePage</Link>
         <Link to="/about" className='about'>About</Link>
         <Link to="/menu" className='menu'>Menu</Link>
