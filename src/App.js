@@ -14,12 +14,14 @@ function App() {
     <>
       <div className='navbar'>
         <img src={logo} alt='main logo picture' height={"50px"} width={"150px"}/>
-        <Link to="/" className='homepage'>HomePage</Link>
-        <Link to="/about" className='about'>About</Link>
-        <Link to="/menu" className='menu'>Menu</Link>
-        <Link to="/reservation" className='reservation'>Reservation</Link>
-        <Link to="/orderonline" className='orderonline'>Order Online</Link>
-        <Link to="/login" className='login'>Login</Link>
+         <div className='navbarele'>
+          <Link style={{color:"rgb(73,94,87)"}} to="/" className='homepage'>HomePage</Link>
+          <Link style={{color:"rgb(73,94,87)"}} to="/about" className='about'>About</Link>
+          <Link style={{color:"rgb(73,94,87)"}} to="/menu" className='menu'>Menu</Link>
+          <Link style={{color:"rgb(73,94,87)"}} to="/reservation" className='reservation'>Reservation</Link>
+          <Link style={{color:"rgb(73,94,87)"}} to="/orderonline" className='orderonline'>Order Online</Link>
+          <Link style={{color:"rgb(73,94,87)"}} to="/login" className='login'>Login</Link>
+         </div>
       </div>
       <Routes>
         <Route path='/' element={<Homepage/>}></Route>
