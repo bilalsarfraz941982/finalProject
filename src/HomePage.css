@@ -1,6 +1,8 @@
 *{
     margin: 0;
     padding: 0;
+    margin-bottom: 10px;
+    margin-top: 5px;
 }
 
 .header{
@@ -65,3 +67,59 @@
     font-weight: 500;
     font-size: medium;
 }
+
+.main button:hover{
+        color: rgb(234, 217, 135) ;
+        background-color:rgb(73,94,87) ;
+    }
+
+
+.mainM{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+    gap:55px;
+}
+
+.firstbox {
+    border-radius: 20px;
+    background-color: rgb(237, 239, 238);
+}
+
+.secondbox{
+    border-radius: 20px;
+    background-color: rgb(237, 239, 238);
+}
+
+.thiredbox{
+    border-radius: 20px;
+    background-color: rgb(237, 239, 238);
+}
+
+.firstbox h4 {
+    margin-left: 10px;
+}
+
+.secondbox h4 {
+    margin-left: 10px;
+}
+.thiredbox h4 {
+    margin-left: 10px;
+}
+
+.mainM p{
+    margin-left: 10px;
+    color: rgb(73,94,87);
+}
+
+.basket{
+    display: flex;
+    gap:25px;
+}
+.nameprice{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+
