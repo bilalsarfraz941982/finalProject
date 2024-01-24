@@ -11,8 +11,9 @@ import dessert from  './Assets/lemon dessert.jpg';
 import customer2 from './Assets/customer2.jpeg';
 import customer3 from './Assets/customer3.jpeg';
 import customer4 from './Assets/customer4.jpeg';
-import star5 from  './Assets/5star.jpg'
-import star4 from  './Assets/4star.jpg'
+import star5 from  './Assets/5star.jpg';
+import star4 from  './Assets/4star.jpg';
+import chefimage from './Assets/chefs.png';
 import {Route , Routes,Link} from 'react-router-dom';
 
 function HomePage() {
@@ -117,7 +118,18 @@ function HomePage() {
        </div>
        <h2></h2><br></br><br></br><br></br>
     </div>
-    
+    <div className='box'>
+      <div className='about'>
+        <h1>Little Lemon</h1>
+        <h3>Chicago</h3><br></br>
+        <p>Little Lemon is a Mediterranean-inspired <br></br>cocktail and wine bar that takes <br></br>pride in offering a tantalizing <br></br>menu centered around fresh seafood, <br></br>succulent meats, flavorful charcuterie, <br></br>and locally sourced ingredients.</p>
+      </div>
+      <div className='cheffimage'>
+        <br></br>
+         <img src={chefimage} height={"350px"} width={"350px"}/>
+        <br></br>
+      </div>
+    </div>
     </>
   )
 }
