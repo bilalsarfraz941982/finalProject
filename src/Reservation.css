@@ -3,21 +3,13 @@
     padding: 0;
 }
 
-.mainBox{
-    text-align: center;
-    background-color:rgb(73,94,87)  ;
-}
-
-.mainBox h1{
-    color: white;
-}
-
-.fields{
+.mainbox{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-}
-.date h4{
-    
+    background-color: rgb(73,94,87);
 }
 
+.bookinginfo{
+    display: flex;
+    flex-wrap: wrap;
+}
