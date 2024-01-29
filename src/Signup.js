@@ -7,7 +7,7 @@ import snapchatt from './Assets/snap.png';
 import twitter from './Assets/twitter.png';
 import './SignUp.css';
 
-function Signup() {
+function SignUp() {
   return (
     <div className='mainbox'>
       <div className='leftbox' style={{backgroundColor:"rgb(73,94,87)", height:"400px" , width:"400px" ,borderRadius:"500px"}}>
@@ -45,4 +45,4 @@ function Signup() {
   )
 }
 
-export default Signup
+export default SignUp
