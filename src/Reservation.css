@@ -2,12 +2,3 @@
     margin: 0;
     padding: 0;
 }
-
-.bookinginfo{
-    display: flex;
-    flex-wrap: wrap;
-}
-
-h1 {
-    align-self: center;
-}
