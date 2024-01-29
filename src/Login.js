@@ -5,7 +5,7 @@ import instagram from './Assets/insta.png';
 import snapchatt from './Assets/snap.png';
 import twitter from './Assets/twitter.png';
 import {Route , Routes , Link} from 'react-router-dom';
-import Singup from './Signup';
+import SingUp from './SignUp';
 
 function Login() {
   return (
@@ -35,7 +35,7 @@ function Login() {
          <h3 style={{color:"white" ,textAlign:'center', marginTop:"20px", fontWeight:"200"}}>Sin up and discover a great <br></br> amount of discounts and offers!!!</h3>
          <Link to='/signup' className='signup'><button style={{color:"rgb(73,94,87)", backgroundColor:"rgb(244, 206, 20)",marginLeft:"120px",marginTop:"50px", fontSize:"80%" ,borderRadius:"50px" ,height:"35px" , width:"150px"}}>Sing up</button></Link>
          <Routes>
-          <Route path='/signup' element={<Singup/>}></Route>
+          <Route path='/signup' element={<SingUp/>}></Route>
          </Routes>
       </div>
     </div>
