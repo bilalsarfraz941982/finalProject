@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.mainbox{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.snlogo{
+    display: flex;
+    flex-wrap: wrap;
+}
