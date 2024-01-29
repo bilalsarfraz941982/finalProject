@@ -3,3 +3,7 @@
     padding: 0;
 }
 
+.mainbox{
+    display: flex;
+    flex-wrap: wrap;
+}
