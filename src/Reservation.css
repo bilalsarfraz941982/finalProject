@@ -6,10 +6,10 @@
 .mainbox{
     display: flex;
     flex-wrap: wrap;
-    background-color: rgb(73,94,87);
+    background-color: rgb(20, 66, 50);
 }
 
 .bookinginfo{
     display: flex;
     flex-wrap: wrap;
-}
+}s
