@@ -14,6 +14,8 @@ function Signup() {
          <h1 style={{color:"white", textAlign:"center" , marginTop:"85px"}}>Welcome Back!</h1>
          <h3 style={{color:"white" ,textAlign:'center', marginTop:"20px", fontWeight:"200"}}>To keep connected with us please<br></br> login with your personal information</h3>
          <Link to='/login' className='login'><button style={{color:"rgb(73,94,87)", backgroundColor:"rgb(244, 206, 20)",marginLeft:"120px",marginTop:"50px", fontSize:"80%" ,borderRadius:"50px" ,height:"35px" , width:"150px"}}>SIGN IN</button></Link>
+      </div>
+      <div>
          <Routes>
           <Route path='/login' element={<Login/>}></Route>
          </Routes>
