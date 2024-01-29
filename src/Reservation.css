@@ -2,3 +2,60 @@
     margin: 0;
     padding: 0;
 }
+
+.majorbox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 100px;
+    background-color: rgb(73,94,87);
+}
+
+.leftinnerbox{
+    margin-top: 15px;
+}
+
+.leftinnerbox button{
+    color:rgb(73,94,87) ;
+    background-color: rgb(244, 206, 20);
+    width: 400px;
+    height: 50px;
+    margin-top: 20px;
+    border-radius: 10px;
+    font-size: large;
+}
+
+.image img{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 20px;
+}
+
+.dateandtime{
+    display: flex;
+    flex-wrap: wrap;
+}
+.fnameandlname{
+    display: flex;
+    flex-wrap: wrap;
+}
+.emailandphone{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+h1{
+    color: rgb(234, 217, 135);
+    font-size:300%;
+    font-weight: 100;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+h5{
+    color :rgb(234, 217, 135);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+h2{
+    color: rgb(73,94,87) ;
+}
+
