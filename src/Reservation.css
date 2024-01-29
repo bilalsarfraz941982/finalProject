@@ -9,13 +9,15 @@
 }
 
 .mainBox h1{
-    margin-right: 255px;
     color: white;
 }
 
 .fields{
     display: flex;
     flex-wrap: wrap;
-    margin-left: 600px;
+    justify-content: center;
+}
+.date h4{
+    
 }
 
