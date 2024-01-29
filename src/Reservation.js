@@ -10,38 +10,38 @@ function Reservation() {
         <h1>BOOKING</h1><br></br>
         <div className='dateandtime'>
           <div className='date'>
-            <h5>Date<sup style={{color:"red"}}>*</sup></h5>
+            <h5>Date<sup style={{color:"salmon"}}>*</sup></h5>
             <input type='date'></input>
           </div>
           <h2>bilo</h2>
           <div className='time'>
-            <h5>Time<sup style={{color:"red"}}>*</sup></h5>
+            <h5>Time<sup style={{color:"salmon"}}>*</sup></h5>
             <input type='time'></input>
           </div>
         </div>
         <div className='people'>
-          <h5>People <sup style={{color:"red"}}>*</sup></h5>
+          <h5>People <sup style={{color:"salmon"}}>*</sup></h5>
           <input type='field'placeholder='no of people'></input>
         </div>
         <div className='fnameandlname'>
           <div className='firstname'>
-            <h5>First Name<sup style={{color:"red"}}>*</sup></h5>
+            <h5>First Name<sup style={{color:"salmon"}}>*</sup></h5>
             <input type='field'></input>
           </div>
           <h2>bilo</h2>
           <div className='lastname'>
-            <h5>Last Name<sup style={{color:"red"}}>*</sup></h5>
+            <h5>Last Name<sup style={{color:"salmon"}}>*</sup></h5>
             <input type='field'></input>
           </div>
         </div>
         <div className='emailandphone'>
           <div className='email'>
-            <h5>Email<sup style={{color:"red"}}>*</sup></h5>
+            <h5>Email<sup style={{color:"salmon"}}>*</sup></h5>
             <input type='field'></input>
           </div>
           <h2>bilo</h2>
           <div className='phonenumber'>
-            <h5>Phone<sup style={{color:"red"}}>*</sup></h5>
+            <h5>Phone<sup style={{color:"salmon"}}>*</sup></h5>
             <input type='field'></input>
           </div>
         </div>
