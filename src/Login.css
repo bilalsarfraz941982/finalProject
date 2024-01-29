@@ -6,9 +6,32 @@
 .mainbox{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 40px;
 }
 
 .snlogo{
     display: flex;
     flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+    margin-left: 155px;
+}
+
+.topthree .snlogo h5{
+    color: rgb(73,94,87);
+}
+
+.topthree{
+    margin-right: 30px;
+}
+
+.topthree h1{
+    color: rgb(73,94,87);
+}
+
+.topthree h4{
+    color: rgb(73,94,87);
+    text-align: center;
+    font-weight: 400;
 }

@@ -18,8 +18,8 @@ function Login() {
            <img src={instagram} height={30} width={30} alt=''/>
            <img src={snapchatt} height={30} width={30} alt=''/>
            <img src={twitter} height={30} width={30} alt=''/>
-          </div>
-          <h5>OR</h5>
+          </div><br></br>
+          <h5>----------------- OR -----------------</h5>
           <div className='details'>
             <form>
               <input type='email' id='email' className='email' placeholder='Email'></input><br></br>
@@ -29,8 +29,8 @@ function Login() {
           </div>
         </div>
       </div>
-      <div className='rightbox' style={{backgroundImage:`url(${ygbackground})`}}>
-
+      <div className='rightbox' style={{backgroundImage:`url(${ygbackground})`, height:"400px" , width:"400px"}}>
+         <h1>New Here?</h1>
       </div>
     </div>
   )
