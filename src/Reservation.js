@@ -66,9 +66,9 @@ function Reservation() {
               placeholder=''
               /><br></br>
               <label style={{color:"rgb(73,94,87)"}} htmlFor='comment'>Notes</label><br></br>
-              <textarea style={{marginTop:"5px", backgroundColor:"rgb(243, 239, 221"}} id="comment" name="comment" rows="4" cols="50" placeholder='enter your comments here .....'></textarea>
+              <textarea style={{marginTop:"5px", backgroundColor:"rgb(243, 239, 221"}} id="comment" name="comment" rows="4" cols="52" placeholder='enter your comments here .....'></textarea>
           </form>
-        </div>
+        </div><br></br>
         <div>
           <input type="checkbox" id="checkbox" />
           <label htmlFor="checkbox" style={{color:"rgb(92, 113, 106)"}}> Subscribe me for the newsletter </label>
