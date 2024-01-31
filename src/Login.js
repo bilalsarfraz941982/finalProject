@@ -37,8 +37,8 @@ function Login() {
          <Link to='/sup' className='sup'><button style={{color:"rgb(73,94,87)", backgroundColor:"rgb(244, 206, 20)",marginLeft:"120px",marginTop:"50px", fontSize:"80%" ,borderRadius:"50px" ,height:"35px" , width:"150px"}}>Sign up</button></Link>
       </div>
       <Routes>
-          <Route path='/sup' element={<SUp/>}></Route>
-         </Routes>
+         <Route path='/sup' element={<SUp/>}></Route>
+      </Routes>
     </div>
   )
 }
