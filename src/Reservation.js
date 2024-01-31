@@ -12,14 +12,14 @@ function Reservation() {
           <form>
             <label style={{color:"rgb(73,94,87)"}} htmlFor='firstname'>Name <sup style={{color:"salmon"}} >*</sup></label><br></br>
               <input
-              style={{width:"400px" , height:"35px", marginTop:"5px"}}
+              style={{width:"400px" , height:"35px", marginTop:"5px", backgroundColor:"rgb(243, 239, 221"}}
               type='text'
               className='firstname'
               id='firstname'
               placeholder='  First'
               /><br></br>
               <input
-              style={{width:"400px" , height:"35px", marginTop:"5px",marginBottom:"5px"}}
+              style={{width:"400px" , height:"35px", marginTop:"5px",marginBottom:"5px", backgroundColor:"rgb(243, 239, 221"}}
               type='lastname'
               className='lastname'
               id='lastname'
@@ -27,7 +27,7 @@ function Reservation() {
               /><br></br>
                <label style={{color:"rgb(73,94,87)"}} htmlFor='email'>Email <sup style={{color:"salmon"}} >*</sup></label><br></br>
               <input
-              style={{width:"400px" , height:"35px", marginTop:"5px",marginBottom:"10px"}}
+              style={{width:"400px" , height:"35px", marginTop:"5px",marginBottom:"10px", backgroundColor:"rgb(243, 239, 221"}}
               type='email'
               className='email'
               id='email'
@@ -35,7 +35,7 @@ function Reservation() {
               /><br></br>
                <label style={{color:"rgb(73,94,87)"}} htmlFor='phone'>Phone <sup style={{color:"salmon"}} >*</sup></label><br></br>
               <input
-              style={{width:"400px" , height:"35px", marginTop:"5px",marginBottom:"10px"}}
+              style={{width:"400px" , height:"35px", marginTop:"5px",marginBottom:"10px", backgroundColor:"rgb(243, 239, 221"}}
               type='number'
               className='phone'
               id='phone'
@@ -43,7 +43,7 @@ function Reservation() {
               /><br></br>
                <label style={{color:"rgb(73,94,87)"}} htmlFor='rdate'>Reservation Date <sup style={{color:"salmon"}} >*</sup></label><br></br>
               <input
-              style={{width:"400px" , height:"35px", marginTop:"5px",marginBottom:"10px"}}
+              style={{width:"400px" , height:"35px", marginTop:"5px",marginBottom:"10px", backgroundColor:"rgb(243, 239, 221"}}
               type='date'
               className='rdate'
               id='rdate'
@@ -51,7 +51,7 @@ function Reservation() {
               /><br></br>
                <label style={{color:"rgb(73,94,87)"}} htmlFor='rtime'>Reservation Time <sup style={{color:"salmon"}} >*</sup></label><br></br>
               <input
-              style={{width:"400px" , height:"35px", marginTop:"5px",marginBottom:"10px"}}
+              style={{width:"400px" , height:"35px", marginTop:"5px",marginBottom:"10px", backgroundColor:"rgb(243, 239, 221"}}
               type='time'
               className='rtime'
               id='rtime'
@@ -59,14 +59,14 @@ function Reservation() {
               /><br></br>
                <label style={{color:"rgb(73,94,87)"}} htmlFor='nopeople'>How many people will you be with? <sup style={{color:"salmon"}} >*</sup></label><br></br>
               <input
-              style={{width:"400px" , height:"35px", marginTop:"5px",marginBottom:"10px"}}
+              style={{width:"400px" , height:"35px", marginTop:"5px",marginBottom:"10px", backgroundColor:"rgb(243, 239, 221"}}
               type='text'
               className='nppeople'
               id='nopeople'
               placeholder=''
               /><br></br>
               <label style={{color:"rgb(73,94,87)"}} htmlFor='comment'>Notes</label><br></br>
-              <textarea style={{marginTop:"5px"}} id="comment" name="comment" rows="4" cols="50" placeholder='enter your comments here .....'></textarea>
+              <textarea style={{marginTop:"5px", backgroundColor:"rgb(243, 239, 221"}} id="comment" name="comment" rows="4" cols="50" placeholder='enter your comments here .....'></textarea>
           </form>
         </div>
         <div>
