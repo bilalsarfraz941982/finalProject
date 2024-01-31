@@ -37,3 +37,7 @@
     margin-top: 20px;
 }
 
+.rightbox button:hover{
+    color: rgb(234, 217, 135) ;
+    background-color:rgb(73,94,87) ;
+}
