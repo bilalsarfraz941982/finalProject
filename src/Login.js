@@ -15,7 +15,7 @@ function Login() {
           <h1>Login to Your Account</h1>
           <h4>Login using social networks</h4>
           <div className='snlogo'>
-           <img src={facebook} height={30} width={30} alt=''/>
+           <img className='facebook'  src={facebook} height={30} width={30} alt=''/>
            <img src={instagram} height={30} width={30} alt=''/>
            <img src={snapchatt} height={30} width={30} alt=''/>
            <img src={twitter} height={30} width={30} alt=''/>

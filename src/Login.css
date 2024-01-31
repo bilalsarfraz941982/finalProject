@@ -41,3 +41,20 @@
     color: rgb(234, 217, 135) ;
     background-color:rgb(73,94,87) ;
 }
+
+
+@media (prefers-reduced-motion: no-preference) {
+    .facebook:hover {
+      animation: facebook-spin infinite 20s linear;
+    }
+  }
+
+  @keyframes facebook-spin {
+   from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
