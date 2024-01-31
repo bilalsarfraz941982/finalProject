@@ -12,19 +12,22 @@ function Reservation() {
           <form>
             <label htmlFor='firstname'>Name <sup style={{color:"salmon"}} >*</sup></label><br></br>
               <input
+              style={{width:"400px" , height:"35px", marginTop:"5px"}}
               type='text'
               className='firstname'
               id='firstname'
-              placeholder='First'
+              placeholder='  First'
               /><br></br>
               <input
+              style={{width:"400px" , height:"35px", marginTop:"5px",marginBottom:"5px"}}
               type='lastname'
               className='lastname'
               id='lastname'
-              placeholder='Last'
+              placeholder='  Last'
               /><br></br>
                <label htmlFor='email'>Email <sup style={{color:"salmon"}} >*</sup></label><br></br>
               <input
+              style={{width:"400px" , height:"35px", marginTop:"5px",marginBottom:"10px"}}
               type='email'
               className='email'
               id='email'
@@ -32,6 +35,7 @@ function Reservation() {
               /><br></br>
                <label htmlFor=''>Phone <sup style={{color:"salmon"}} >*</sup></label><br></br>
               <input
+              style={{width:"400px" , height:"35px", marginTop:"5px",marginBottom:"10px"}}
               type='number'
               className='phone'
               id='phone'
@@ -39,6 +43,7 @@ function Reservation() {
               /><br></br>
                <label htmlFor='rdate'>Reservation Date <sup style={{color:"salmon"}} >*</sup></label><br></br>
               <input
+              style={{width:"400px" , height:"35px", marginTop:"5px",marginBottom:"10px"}}
               type='date'
               className='rdate'
               id='rdate'
@@ -46,6 +51,7 @@ function Reservation() {
               /><br></br>
                <label htmlFor='rtime'>Reservation Time <sup style={{color:"salmon"}} >*</sup></label><br></br>
               <input
+              style={{width:"400px" , height:"35px", marginTop:"5px",marginBottom:"10px"}}
               type='time'
               className='rtime'
               id='rtime'
@@ -53,13 +59,14 @@ function Reservation() {
               /><br></br>
                <label htmlFor='nopeople'>How many people will you be with? <sup style={{color:"salmon"}} >*</sup></label><br></br>
               <input
+              style={{width:"400px" , height:"35px", marginTop:"5px",marginBottom:"10px"}}
               type='text'
               className='nppeople'
               id='nopeople'
               placeholder=''
               /><br></br>
               <label htmlFor='comment'>Notes</label><br></br>
-              <textarea id="comment" name="comment" rows="4" cols="50" placeholder='enter your comments here .....'></textarea>
+              <textarea style={{marginTop:"5px"}} id="comment" name="comment" rows="4" cols="50" placeholder='enter your comments here .....'></textarea>
           </form>
         </div>
         <div>
