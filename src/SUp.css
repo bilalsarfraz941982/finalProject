@@ -2,3 +2,22 @@
     margin: 0;
     padding: 0;
 }
+
+.mainbox{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.rightbox{
+    text-align: center;
+}
+
+.snlogo{
+    margin-left: 150px;
+}
+
+.details{
+    margin-top: 20px;
+    margin-right: 70px;
+}

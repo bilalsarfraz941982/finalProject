@@ -13,6 +13,7 @@ import Menu from './Menu';
 import Reservation from './Reservation';
 import Orderonline from './Orderonline';
 import Login from './Login'
+import SUp from './SUp'
 
 function App() {
   return (
@@ -35,6 +36,7 @@ function App() {
         <Route path='/reservation' element={<Reservation/>}></Route>
         <Route path='/orderonline' element={<Orderonline/>}></Route>
         <Route path='/login' element={<Login/>}></Route>
+        <Route path='/sup' element={<SUp/>}></Route>
       </Routes>
       <div className='footer'>
         <div className='box1'>
@@ -57,6 +59,7 @@ function App() {
           <Link style={{color:"rgb(73,94,87)"}} to="/reservation" className='reservation'>Reservation</Link><br></br>
           <Link style={{color:"rgb(73,94,87)"}} to="/orderonline" className='orderonline'>Order Online</Link><br></br>
           <Link style={{color:"rgb(73,94,87)"}} to="/login" className='login'>Login</Link><br></br>
+          <Link style={{color:"rgb(73,94,87)"}} to="/sup" className='sup'>SignUp</Link><br></br>
         </div>
         <div className='contact'>
         <h3>Contact</h3>
