@@ -28,7 +28,7 @@
     border-radius: 15px;
     height: 45px;
     width: 150px;
-    color:black;
+    color:rgb(73,94,87);
     font-weight:400;
     font-size:medium;
     background-color: rgb(244,206,20);
@@ -58,6 +58,7 @@
 
 .main button{
     background-color: rgb(244,206,20);
+    color: rgb(73,94,87);
     margin-top: 35px;
     border-radius: 15px;
     height: 45px;

@@ -89,7 +89,6 @@ function HomePage() {
        <h1>What our customer say about us !!</h1>
        <div className='commentBoxsection'>
           <div className='comment1'>
-             <h4>Rating</h4>
              <div className='customer1'>
                <img style={{borderRadius:"100px"}} src={customer4}></img>
                <h4>Andy</h4>
@@ -98,7 +97,6 @@ function HomePage() {
              <img src={star5} alt='reviewstar' height={"20px"} width={"100px"}></img>
           </div>
           <div className='comment2'>
-             <h4>Rating</h4>
              <div className='customer2'>
                <img style={{borderRadius:"100px"}} src={customer2}></img>
                <h4>Sharan</h4>
@@ -107,7 +105,6 @@ function HomePage() {
              <img src={star5} alt='reviewstar' height={"20px"} width={"100px"}></img>
           </div>
           <div className='comment3'>
-             <h4>Rating</h4>
              <div className='customer3'>
                <img style={{borderRadius:"100px"}} src={customer3}></img>
                <h4>Bilal</h4>

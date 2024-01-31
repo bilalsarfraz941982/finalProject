@@ -8,7 +8,7 @@
     flex-wrap: wrap;
     justify-content: center;
     gap: 100px;
-    background-color: rgb(73,94,87);
+    margin-top: 20px;
 }
 
 .leftinnerbox{
@@ -28,35 +28,19 @@
 .image img{
     margin-top: 15px;
     margin-bottom: 15px;
-    border-radius: 20px;
-}
-
-.dateandtime{
-    display: flex;
-    flex-wrap: wrap;
-}
-.fnameandlname{
-    display: flex;
-    flex-wrap: wrap;
-}
-.emailandphone{
-    display: flex;
-    flex-wrap: wrap;
+    border-radius: 500px;
 }
 
 h1{
-    color: rgb(244, 206, 20);
+    color: rgb(73,94,87);
     font-size:300%;
     font-weight: 100;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 
 h5{
-    color :rgb(234, 217, 135);
+    color :rgb(92, 113, 106);
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
-h2{
-    color: rgb(73,94,87) ;
 
-}
 

@@ -32,9 +32,9 @@ function SUp() {
           <div className='details'>
             <form>
               <input type='text' id='name' className='name' placeholder='  Name' style={{backgroundColor:"rgb(234, 217, 135)",height:"30px",width:"300px" , marginBottom:"10px",marginTop:"10px", borderRadius:"20px" , marginLeft:"80px"}}></input><br></br>
-              <input type='email' id='email' className='email' placeholder='  Email' style={{backgroundColor:"rgb(234, 217, 135)",height:"30px",width:"300px" , marginBottom:"10px",marginTop:"10px", borderRadius:"20px" , marginLeft:"80px"}}></input><br></br>
+              <input type='email' id='email' className='email' placeholder='  Email' style={{backgroundColor:"rgb(234, 217, 135)",height:"30px",width:"300px" , marginBottom:"10px", borderRadius:"20px" , marginLeft:"80px"}}></input><br></br>
               <input type='password' id='password' className='password' placeholder='  Password' style={{backgroundColor:"rgb(234, 217, 135)",height:"30px",width:"300px", marginBottom:"10px", borderRadius:"20px", marginLeft:"80px"}}></input><br></br>
-              <button style={{color:"rgb(73,94,87)", backgroundColor:"rgb(244, 206, 20)", marginLeft:"90px",marginTop:"30px", fontSize:"80%" ,borderRadius:"50px" ,height:"35px" , width:"150px" , }}>Sign Up</button>
+              <button style={{color:"rgb(73,94,87)", backgroundColor:"rgb(244, 206, 20)", marginLeft:"90px",marginTop:"20px", fontSize:"80%" ,borderRadius:"50px" ,height:"35px" , width:"150px" , }}>Sign Up</button>
             </form>
           </div>
         </div>
