@@ -1,14 +1,11 @@
 import React, { useState } from 'react';
 import './Reservation.css';
 import reservation from './Assets/reservation.jpg'
-import { UNSAFE_DataRouterStateContext, useSearchParams } from 'react-router-dom';
+
 
 function Reservation() {
-  const [name , setName] = useState({
-    first : "",
-    last: "",
-  });
-
+  const [firstName , setFirstname] = useState("");
+  const [lastName , setLastname] = useState("");
   const [email, setEmail] = useState("");
   const [phone, setPhone] = useState("");
   const [rdate , setRdate] = useState("");
@@ -18,7 +15,8 @@ function Reservation() {
 
   const condition = function(){
       return (
-        name &&
+        firstName &&
+        lastName&&
         email&&
         phone&&
         rdate&&
@@ -29,19 +27,21 @@ function Reservation() {
   }
 
   const reset = function(){
-      setName();
-      setEmail();
-      setPhone();
-      setRdate();
-      setRtime();
-      setNopeople();
-      setOcca();
+      setFirstname("");
+      setLastname("");
+      setEmail("");
+      setPhone("");
+      setRdate("");
+      setRtime("");
+      setNopeople("");
+      setOcca("");
   }
 
   const buttonHnadler = function(e){
     e.preventDefault();
     reset();
     console.log("thanks for the reservation you will get a confirmation email soon!!!")
+    console.log(alert("thanks for the reservation you will get a confirmation email soon!!!"))
   }
 
   return (
@@ -58,9 +58,9 @@ function Reservation() {
               className='firstname'
               id='firstname'
               placeholder='  First'
-              value={name.first}
+              value={firstName}
               onChange={function(e){
-                setName({...name, first: e.target.value})
+                setFirstname(e.target.value)
               }}
               /><br></br>
               <input
@@ -69,9 +69,9 @@ function Reservation() {
               className='lastname'
               id='lastname'
               placeholder='  Last'
-              value={name.last}
+              value={lastName}
               onChange={function(e){
-                setName({...name , last : e.target.value})
+                setLastname(e.target.value)
               }}
               /><br></br>
                <label style={{color:"rgb(73,94,87)"}} htmlFor='email'>Email <sup style={{color:"salmon"}} >*</sup></label><br></br>
