@@ -108,7 +108,7 @@ function Reservation() {
                <label style={{color:"rgb(73,94,87)"}} htmlFor='rtime'>Reservation Time <sup style={{color:"salmon"}} >*</sup></label><br></br>
                <select value={rtime}
               onChange={function(e){
-                setRtime(e.target.value)}} style={{width:"400px" , height:"35px", marginTop:"5px",marginBottom:"10px", backgroundColor:"rgb(243, 239, 221"}} id="rtime " >
+                setRtime(e.target.value)}} style={{width:"400px" , height:"35px", marginTop:"5px",marginBottom:"10px", backgroundColor:"rgb(243, 239, 221"}} id="rtime " className='rtime' >
                <option>17:00</option>
                <option>18:00</option>
                <option>19:00</option>
@@ -121,7 +121,7 @@ function Reservation() {
               <input
               style={{width:"400px" , height:"35px", marginTop:"5px",marginBottom:"10px", backgroundColor:"rgb(243, 239, 221"}}
               type='text'
-              className='nppeople'
+              className='nopeople'
               id='nopeople'
               value={nopeople}
               onChange={function(e){
@@ -131,7 +131,7 @@ function Reservation() {
               <select value={occa}
               onChange={function(e){
                 setOcca(e.target.value)}}
-              style={{width:"400px" , height:"35px", marginTop:"5px",marginBottom:"10px", backgroundColor:"rgb(243, 239, 221"}} id="occasion">
+              style={{width:"400px" , height:"35px", marginTop:"5px",marginBottom:"10px", backgroundColor:"rgb(243, 239, 221"}} id="occasion"className='occasion'>
               <option>Birthday</option>
               <option>Anniversary</option>
               </select><br></br>
