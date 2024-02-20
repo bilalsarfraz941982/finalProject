@@ -1,8 +1,49 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Reservation.css';
 import reservation from './Assets/reservation.jpg'
+import { UNSAFE_DataRouterStateContext, useSearchParams } from 'react-router-dom';
 
 function Reservation() {
+  const [name , setName] = useState({
+    first : "",
+    last: "",
+  });
+
+  const [email, setEmail] = useState("");
+  const [phone, setPhone] = useState("");
+  const [rdate , setRdate] = useState("");
+  const [rtime, setRtime] = useState("");
+  const [nopeople , setNopeople] = useState("");
+  const [occa , setOcca] = useState("");
+
+  const condition = function(){
+      return (
+        name &&
+        email&&
+        phone&&
+        rdate&&
+        rtime&&
+        nopeople&&
+        occa
+      )
+  }
+
+  const reset = function(){
+      setName();
+      setEmail();
+      setPhone();
+      setRdate();
+      setRtime();
+      setNopeople();
+      setOcca();
+  }
+
+  const buttonHnadler = function(e){
+    e.preventDefault();
+    reset();
+    console.log("thanks for the reservation you will get a confirmation email soon!!!")
+  }
+
   return (
     <>
     <div className='majorbox'>
@@ -17,6 +58,10 @@ function Reservation() {
               className='firstname'
               id='firstname'
               placeholder='  First'
+              value={name.first}
+              onChange={function(e){
+                setName({...name, first: e.target.value})
+              }}
               /><br></br>
               <input
               style={{width:"400px" , height:"35px", marginTop:"5px",marginBottom:"5px", backgroundColor:"rgb(243, 239, 221"}}
@@ -24,6 +69,10 @@ function Reservation() {
               className='lastname'
               id='lastname'
               placeholder='  Last'
+              value={name.last}
+              onChange={function(e){
+                setName({...name , last : e.target.value})
+              }}
               /><br></br>
                <label style={{color:"rgb(73,94,87)"}} htmlFor='email'>Email <sup style={{color:"salmon"}} >*</sup></label><br></br>
               <input
@@ -31,7 +80,10 @@ function Reservation() {
               type='email'
               className='email'
               id='email'
-              placeholder=''
+              value={email}
+              onChange={function(e){
+                setEmail(e.target.value)
+              }}
               /><br></br>
                <label style={{color:"rgb(73,94,87)"}} htmlFor='phone'>Phone <sup style={{color:"salmon"}} >*</sup></label><br></br>
               <input
@@ -39,7 +91,9 @@ function Reservation() {
               type='number'
               className='phone'
               id='phone'
-              placeholder=''
+              value={phone}
+              onChange={function(e){
+                setPhone(e.target.value)}}
               /><br></br>
                <label style={{color:"rgb(73,94,87)"}} htmlFor='rdate'>Reservation Date <sup style={{color:"salmon"}} >*</sup></label><br></br>
               <input
@@ -47,24 +101,40 @@ function Reservation() {
               type='date'
               className='rdate'
               id='rdate'
-              placeholder=''
+              value={rdate}
+              onChange={function(e){
+                setRdate(e.target.value)}}
               /><br></br>
                <label style={{color:"rgb(73,94,87)"}} htmlFor='rtime'>Reservation Time <sup style={{color:"salmon"}} >*</sup></label><br></br>
-              <input
-              style={{width:"400px" , height:"35px", marginTop:"5px",marginBottom:"10px", backgroundColor:"rgb(243, 239, 221"}}
-              type='time'
-              className='rtime'
-              id='rtime'
-              placeholder=''
-              /><br></br>
+               <select value={rtime}
+              onChange={function(e){
+                setRtime(e.target.value)}} style={{width:"400px" , height:"35px", marginTop:"5px",marginBottom:"10px", backgroundColor:"rgb(243, 239, 221"}} id="rtime " >
+               <option>17:00</option>
+               <option>18:00</option>
+               <option>19:00</option>
+               <option>20:00</option>
+               <option>21:00</option>
+              <option>22:00</option>
+              </select>
+              <br></br>
                <label style={{color:"rgb(73,94,87)"}} htmlFor='nopeople'>How many people will you be with? <sup style={{color:"salmon"}} >*</sup></label><br></br>
               <input
               style={{width:"400px" , height:"35px", marginTop:"5px",marginBottom:"10px", backgroundColor:"rgb(243, 239, 221"}}
               type='text'
               className='nppeople'
               id='nopeople'
-              placeholder=''
+              value={nopeople}
+              onChange={function(e){
+                setNopeople(e.target.value)}}
               /><br></br>
+              <label htmlFor="occasion" style={{color:"rgb(73,94,87)"}}>Occasion<sup style={{color:"salmon"}} >*</sup></label><br></br>
+              <select value={occa}
+              onChange={function(e){
+                setOcca(e.target.value)}}
+              style={{width:"400px" , height:"35px", marginTop:"5px",marginBottom:"10px", backgroundColor:"rgb(243, 239, 221"}} id="occasion">
+              <option>Birthday</option>
+              <option>Anniversary</option>
+              </select><br></br>
               <label style={{color:"rgb(73,94,87)"}} htmlFor='comment'>Notes</label><br></br>
               <textarea style={{marginTop:"5px", backgroundColor:"rgb(243, 239, 221"}} id="comment" name="comment" rows="4" cols="52" placeholder='enter your comments here .....'></textarea>
           </form>
@@ -73,7 +143,7 @@ function Reservation() {
           <input type="checkbox" id="checkbox" />
           <label htmlFor="checkbox" style={{color:"rgb(92, 113, 106)"}}> Subscribe me for the newsletter </label>
         </div>
-          <button>Book A Table</button>
+          <button onClick={buttonHnadler} disabled={!condition()}>Book A Table</button>
         </div>
       <div className='image'>
         <img alt='' src={reservation} height={"400px"} width={"400px"} />
