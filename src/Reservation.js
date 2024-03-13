@@ -46,12 +46,12 @@ function Reservation() {
 
   return (
     <>
-    <div style={{backgroundColor:"rgb(38, 60, 52)"}} className='majorbox'>
+    <div style={{backgroundColor:"rgb(73,94,87)"}} className='majorbox'>
       <div className='leftinnerbox'>
         <h1>BOOKING</h1><br></br>
         <div className='form'>
           <form>
-            <label style={{color:"rgb(73,94,87)"}} htmlFor='firstname'>Name <sup style={{color:"salmon"}} >*</sup></label><br></br>
+            <label style={{color:'white'}} htmlFor='firstname'>Name <sup style={{color:"salmon"}} >*</sup></label><br></br>
               <input
               style={{width:"400px" , height:"35px", marginTop:"5px", backgroundColor:"rgb(243, 239, 221"}}
               type='text'
@@ -74,7 +74,7 @@ function Reservation() {
                 setLastname(e.target.value)
               }}
               /><br></br>
-               <label style={{color:"rgb(73,94,87)"}} htmlFor='email'>Email <sup style={{color:"salmon"}} >*</sup></label><br></br>
+               <label style={{color:"white"}} htmlFor='email'>Email <sup style={{color:"salmon"}} >*</sup></label><br></br>
               <input
               style={{width:"400px" , height:"35px", marginTop:"5px",marginBottom:"10px", backgroundColor:"rgb(243, 239, 221"}}
               type='email'
@@ -85,7 +85,7 @@ function Reservation() {
                 setEmail(e.target.value)
               }}
               /><br></br>
-               <label style={{color:"rgb(73,94,87)"}} htmlFor='phone'>Phone <sup style={{color:"salmon"}} >*</sup></label><br></br>
+               <label style={{color:"white"}} htmlFor='phone'>Phone <sup style={{color:"salmon"}} >*</sup></label><br></br>
               <input
               style={{width:"400px" , height:"35px", marginTop:"5px",marginBottom:"10px", backgroundColor:"rgb(243, 239, 221"}}
               type='number'
@@ -95,7 +95,7 @@ function Reservation() {
               onChange={function(e){
                 setPhone(e.target.value)}}
               /><br></br>
-               <label style={{color:"rgb(73,94,87)"}} htmlFor='rdate'>Reservation Date <sup style={{color:"salmon"}} >*</sup></label><br></br>
+               <label style={{color:"white"}} htmlFor='rdate'>Reservation Date <sup style={{color:"salmon"}} >*</sup></label><br></br>
               <input
               style={{width:"400px" , height:"35px", marginTop:"5px",marginBottom:"10px", backgroundColor:"rgb(243, 239, 221"}}
               type='date'
@@ -105,7 +105,7 @@ function Reservation() {
               onChange={function(e){
                 setRdate(e.target.value)}}
               /><br></br>
-               <label style={{color:"rgb(73,94,87)"}} htmlFor='rtime'>Reservation Time <sup style={{color:"salmon"}} >*</sup></label><br></br>
+               <label style={{color:"white"}} htmlFor='rtime'>Reservation Time <sup style={{color:"salmon"}} >*</sup></label><br></br>
                <select value={rtime}
               onChange={function(e){
                 setRtime(e.target.value)}} style={{width:"400px" , height:"35px", marginTop:"5px",marginBottom:"10px", backgroundColor:"rgb(243, 239, 221"}} id="rtime " className='rtime' >
@@ -117,7 +117,7 @@ function Reservation() {
               <option>22:00</option>
               </select>
               <br></br>
-               <label style={{color:"rgb(73,94,87)"}} htmlFor='nopeople'>How many people will you be with? <sup style={{color:"salmon"}} >*</sup></label><br></br>
+               <label style={{color:"white"}} htmlFor='nopeople'>How many people will you be with? <sup style={{color:"salmon"}} >*</sup></label><br></br>
               <input
               style={{width:"400px" , height:"35px", marginTop:"5px",marginBottom:"10px", backgroundColor:"rgb(243, 239, 221"}}
               type='text'
@@ -127,7 +127,7 @@ function Reservation() {
               onChange={function(e){
                 setNopeople(e.target.value)}}
               /><br></br>
-              <label htmlFor="occasion" style={{color:"rgb(73,94,87)"}}>Occasion<sup style={{color:"salmon"}} >*</sup></label><br></br>
+              <label htmlFor="occasion" style={{color:"white"}}>Occasion<sup style={{color:"salmon"}} >*</sup></label><br></br>
               <select value={occa}
               onChange={function(e){
                 setOcca(e.target.value)}}
@@ -135,15 +135,15 @@ function Reservation() {
               <option>Birthday</option>
               <option>Anniversary</option>
               </select><br></br>
-              <label style={{color:"rgb(73,94,87)"}} htmlFor='comment'>Notes</label><br></br>
+              <label style={{color:"white"}} htmlFor='comment'>Notes</label><br></br>
               <textarea style={{marginTop:"5px", backgroundColor:"rgb(243, 239, 221"}} id="comment" name="comment" rows="4" cols="52" placeholder='enter your comments here .....'></textarea>
           </form>
         </div><br></br>
         <div>
           <input type="checkbox" id="checkbox" />
-          <label htmlFor="checkbox" style={{color:"rgb(92, 113, 106)"}}> Subscribe me for the newsletter </label>
+          <label htmlFor="checkbox" style={{color:"white"}}> Subscribe me for the newsletter </label>
         </div>
-          <button onClick={buttonHnadler} disabled={!condition()}>Book A Table</button><br></br>
+          <button onClick={buttonHnadler} disabled={!condition()}>Book A Table</button>
         </div>
       <div className='image'>
         <img alt='' src={reservation} height={"400px"} width={"400px"} />

@@ -21,6 +21,7 @@
     width: 400px;
     height: 50px;
     margin-top: 20px;
+    margin-bottom: 30px;
     border-radius: 10px;
     font-size: large;
 }
@@ -32,7 +33,7 @@
 }
 
 h1{
-    color: rgb(73,94,87);
+    color: white;
     font-size:300%;
     font-weight: 100;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
