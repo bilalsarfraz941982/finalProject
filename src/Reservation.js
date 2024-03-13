@@ -46,7 +46,7 @@ function Reservation() {
 
   return (
     <>
-    <div className='majorbox'>
+    <div style={{backgroundColor:"rgb(38, 60, 52)"}} className='majorbox'>
       <div className='leftinnerbox'>
         <h1>BOOKING</h1><br></br>
         <div className='form'>
@@ -143,7 +143,7 @@ function Reservation() {
           <input type="checkbox" id="checkbox" />
           <label htmlFor="checkbox" style={{color:"rgb(92, 113, 106)"}}> Subscribe me for the newsletter </label>
         </div>
-          <button onClick={buttonHnadler} disabled={!condition()}>Book A Table</button>
+          <button onClick={buttonHnadler} disabled={!condition()}>Book A Table</button><br></br>
         </div>
       <div className='image'>
         <img alt='' src={reservation} height={"400px"} width={"400px"} />
