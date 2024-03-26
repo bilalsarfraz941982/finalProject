@@ -90,7 +90,7 @@ function HomePage() {
        <div className='commentBoxsection'>
           <div className='comment1'>
              <div className='customer1'>
-               <img style={{borderRadius:"100px"}} src={customer4}></img>
+               <img style={{borderRadius:"100px"}} src={customer1}></img>
                <h4>Andy</h4>
              </div>
              <p>"Excellent food, service well priced <br></br> and offer discount for NHS staff.<br></br> Very busy for Saturday lunch time."</p>
